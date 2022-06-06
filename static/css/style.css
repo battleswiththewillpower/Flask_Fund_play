@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px
+}
+body { 
+    background-color: crimson;
+    color: whitesmoke;
+    margin: 0 auto;
+    
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 20px;
+    /* margin-right: 40px; */
+    flex-wrap: wrap;
+}
+
+.boxes {
+    width: 160px;
+    height: 160px;
+    border: 1px solid skyblue;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
